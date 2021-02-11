@@ -87,8 +87,8 @@ input {
 	min-height: 700px;
   display: grid;
   grid-template-rows: 20px repeat(5, 100px);
-  align-content: space-between;
   grid-auto-rows: 100px;
+  grid-row-gap: 20px;
 }
 
 .card-column h2 {
